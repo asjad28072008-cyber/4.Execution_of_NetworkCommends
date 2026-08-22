@@ -1,4 +1,3 @@
-<img width="1919" height="970" alt="Screenshot 2026-08-22 122015" src="https://github.com/user-attachments/assets/726a292a-62f3-49fb-8a52-d56e896a3129" />
 # 4.Execution_of_NetworkCommands
 ## AIM :Use of Network commands in Real Time environment
 ## Software : Command Prompt And Network Protocol Analyzer
