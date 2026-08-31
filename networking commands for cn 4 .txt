@@ -1,0 +1,385 @@
+Microsoft Windows [Version 10.0.26200.9278]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Muham>getmac
+
+Physical Address    Transport Name
+=================== ==========================================================
+38-8D-3D-56-00-9E   \Device\Tcpip_{2039B497-40C5-4A21-87C0-3EF1829190DF}
+0A-00-27-00-00-0F   \Device\Tcpip_{86178843-E3A6-414B-984D-064C35306F11}
+N/A                 \Device\Tcpip_{9F1FEEE2-F945-460E-ABBC-3967AB374E16}
+
+C:\Users\Muham>hostname
+MuhammadAsjad
+
+C:\Users\Muham>nbtstat -n
+
+Ethernet 3:
+Node IpAddress: [192.168.56.1] Scope Id: []
+
+                NetBIOS Local Name Table
+
+       Name               Type         Status
+    ---------------------------------------------
+    MUHAMMADASJAD  <20>  UNIQUE      Registered
+    MUHAMMADASJAD  <00>  UNIQUE      Registered
+    WORKGROUP      <00>  GROUP       Registered
+
+Wi-Fi:
+Node IpAddress: [10.140.98.246] Scope Id: []
+
+                NetBIOS Local Name Table
+
+       Name               Type         Status
+    ---------------------------------------------
+    MUHAMMADASJAD  <20>  UNIQUE      Registered
+    MUHAMMADASJAD  <00>  UNIQUE      Registered
+    WORKGROUP      <00>  GROUP       Registered
+
+Wi-Fi 4:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+vgate0:
+Node IpAddress: [172.30.228.40] Scope Id: []
+
+                NetBIOS Local Name Table
+
+       Name               Type         Status
+    ---------------------------------------------
+    MUHAMMADASJAD  <20>  UNIQUE      Registered
+    MUHAMMADASJAD  <00>  UNIQUE      Registered
+    WORKGROUP      <00>  GROUP       Registered
+
+Wi-Fi 5:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+C:\Users\Muham>systeminfo
+
+Host Name:                     MUHAMMADASJAD
+OS Name:                       Microsoft Windows 11 Home Single Language
+OS Version:                    10.0.26200 N/A Build 26200
+OS Manufacturer:               Microsoft Corporation
+OS Configuration:              Standalone Workstation
+OS Build Type:                 Multiprocessor Free
+Registered Owner:              Muhammadasjad282008@outlook.com
+Registered Organization:       HP
+Product ID:                    00342-42742-38216-AAOEM
+Original Install Date:         19-07-2025, 05:25:09
+System Boot Time:              29-08-2026, 10:09:55
+System Manufacturer:           HP
+System Model:                  HP Laptop 15-fd0xxx
+System Type:                   x64-based PC
+Processor(s):                  1 Processor(s) Installed.
+                               [01]: Intel64 Family 6 Model 186 Stepping 3 GenuineIntel ~1300 Mhz
+BIOS Version:                  AMI F.26, 22-04-2026
+Windows Directory:             C:\windows
+System Directory:              C:\windows\system32
+Boot Device:                   \Device\HarddiskVolume1
+System Locale:                 en-us;English (United States)
+Input Locale:                  00004009
+Time Zone:                     (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+Total Physical Memory:         16,028 MB
+Available Physical Memory:     1,454 MB
+Virtual Memory: Max Size:      22,767 MB
+Virtual Memory: Available:     788 MB
+Virtual Memory: In Use:        21,979 MB
+Page File Location(s):         C:\pagefile.sys
+Domain:                        WORKGROUP
+Logon Server:                  \\MUHAMMADASJAD
+Hotfix(s):                     7 Hotfix(s) Installed.
+                               [01]: KB5120708
+                               [02]: KB5050575
+                               [03]: KB5054156
+                               [04]: KB5059093
+                               [05]: KB5120998
+                               [06]: KB5123304
+                               [07]: KB5120997
+Network Card(s):               3 NIC(s) Installed.
+                               [01]: Realtek RTL8851BE WiFi 6 802.11ax PCIe Adapter
+                                     Connection Name: Wi-Fi
+                                     DHCP Enabled:    Yes
+                                     DHCP Server:     10.140.98.184
+                                     IP address(es)
+                                     [01]: 10.140.98.246
+                                     [02]: fe80::6554:13ad:bd88:b2c2
+                                     [03]: 2401:4900:6330:91f3:6864:2ce0:6032:1da5
+                                     [04]: 2401:4900:6330:91f3:3b5:67c9:715c:7b8
+                               [02]: VirtualBox Host-Only Ethernet Adapter
+                                     Connection Name: Ethernet 3
+                                     DHCP Enabled:    No
+                                     IP address(es)
+                                     [01]: 192.168.56.1
+                                     [02]: fe80::2737:95a7:3b0f:b63a
+                               [03]: Wintun Userspace Tunnel
+                                     Connection Name: vgate0
+                                     DHCP Enabled:    No
+                                     IP address(es)
+                                     [01]: 172.30.228.40
+                                     [02]: fe80::1cbb:12d0:e1ff:56af
+Virtualization-based security: Status: Running
+                               Required Security Properties:
+                                     Base Virtualization Support
+                               Available Security Properties:
+                                     Base Virtualization Support
+                                     Secure Boot
+                                     DMA Protection
+                                     UEFI Code Readonly
+                                     SMM Security Mitigations 1.0
+                                     Mode Based Execution Control
+                                     APIC Virtualization
+                               Services Configured:
+                                     Hypervisor enforced Code Integrity
+                               Services Running:
+                                     Hypervisor enforced Code Integrity
+                               App Control for Business policy: Enforced
+                               App Control for Business user mode policy: Off
+                               Security Features Enabled:
+Hyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+C:\Users\Muham>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    10.140.98.246:49357    8.222.147.122:https    ESTABLISHED
+  TCP    10.140.98.246:51053    8.219.122.25:https     ESTABLISHED
+  TCP    10.140.98.246:51429    static:https           ESTABLISHED
+  TCP    10.140.98.246:51638    57.150.87.97:https     ESTABLISHED
+  TCP    10.140.98.246:51679    20.190.145.143:https   TIME_WAIT
+  TCP    10.140.98.246:53470    static:https           ESTABLISHED
+  TCP    10.140.98.246:54554    20.42.73.28:https      TIME_WAIT
+  TCP    10.140.98.246:54569    98.70.192.224:https    TIME_WAIT
+  TCP    10.140.98.246:54585    98.70.192.224:https    TIME_WAIT
+  TCP    10.140.98.246:55672    lb-140-82-113-25-iad:https  ESTABLISHED
+  TCP    10.140.98.246:64689    20.42.73.25:https      ESTABLISHED
+  TCP    10.140.98.246:64692    52.253.84.76:https     TIME_WAIT
+  TCP    10.140.98.246:64695    52.230.60.54:https     ESTABLISHED
+  TCP    10.140.98.246:64696    20.247.162.75:https    ESTABLISHED
+  TCP    127.0.0.1:49671        MuhammadAsjad:49672    ESTABLISHED
+  TCP    127.0.0.1:49672        MuhammadAsjad:49671    ESTABLISHED
+  TCP    127.0.0.1:49673        MuhammadAsjad:49674    ESTABLISHED
+  TCP    127.0.0.1:49674        MuhammadAsjad:49673    ESTABLISHED
+  TCP    127.0.0.1:49681        MuhammadAsjad:49682    ESTABLISHED
+  TCP    127.0.0.1:49682        MuhammadAsjad:49681    ESTABLISHED
+  TCP    127.0.0.1:51407        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51408        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51409        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51410        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51411        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51416        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51417        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51418        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51419        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51420        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51421        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51422        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51423        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51426        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51427        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51428        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51673        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51674        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:51678        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:63472        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:63473        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:63474        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:63475        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:63476        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:63477        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:63478        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:63835        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64415        MuhammadAsjad:64416    ESTABLISHED
+  TCP    127.0.0.1:64416        MuhammadAsjad:64415    ESTABLISHED
+  TCP    127.0.0.1:64665        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64668        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64669        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64670        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64671        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64672        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64673        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64675        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64676        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64678        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64679        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64680        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64681        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64682        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64683        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64684        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64685        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64686        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64687        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64688        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64690        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64691        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64694        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64697        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64701        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64703        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64704        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64705        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64706        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64707        MuhammadAsjad:49350    TIME_WAIT
+  TCP    127.0.0.1:64708        MuhammadAsjad:49350    TIME_WAIT
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:49840  [2603:1040:a06:6::]:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:50523  [2600:1f18:24e6:b902:9489:c659:8678:8043]:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:52687  [2403:8600:c090:42:f000::1122]:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:52984  [2600:1f18:24e6:b902:9489:c659:8678:8043]:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:55883  [2603:1040:a06:6::]:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:55884  [2603:1040:a06:6::]:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:55886  [2603:1061:13f0:2d1a::365:590]:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:55887  [2603:1061:13f0:2d1a::365:590]:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:56316  [2606:4700:8398:78f2:3b3b:9c1:4177:19e1]:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:59549  [2606:50c0:8003::154]:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:61282  g2600-1417-0078-0000-0000-0000-6856-bd33:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:62786  [2603:1040:a06:6::]:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:63479  maa03s20-in-x03:http   TIME_WAIT
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:64664  g2600-140f-2400-0000-0000-0000-173b-af5a:https  ESTABLISHED
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:64667  [2603:1046:2000:60::80]:https  TIME_WAIT
+  TCP    [2401:4900:6330:91f3:6864:2ce0:6032:1da5]:64790  sd-in-f188:5228        ESTABLISHED
+
+C:\Users\Muham>ipconfig
+
+Windows IP Configuration
+
+
+Unknown adapter vgate0:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::1cbb:12d0:e1ff:56af%39
+   IPv4 Address. . . . . . . . . . . : 172.30.228.40
+   Subnet Mask . . . . . . . . . . . : 255.255.255.255
+   Default Gateway . . . . . . . . . :
+
+Ethernet adapter Ethernet 3:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::2737:95a7:3b0f:b63a%15
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Wireless LAN adapter Wi-Fi 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi 5:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2401:4900:6330:91f3:3b5:67c9:715c:7b8
+   Temporary IPv6 Address. . . . . . : 2401:4900:6330:91f3:6864:2ce0:6032:1da5
+   Link-local IPv6 Address . . . . . : fe80::6554:13ad:bd88:b2c2%5
+   IPv4 Address. . . . . . . . . . . : 10.140.98.246
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::589e:35ff:fe39:e7d2%5
+                                       10.140.98.184
+
+C:\Users\Muham>ping google.com
+
+Pinging google.com [2404:6800:4007:83e::200e] with 32 bytes of data:
+Reply from 2404:6800:4007:83e::200e: time=20ms
+Reply from 2404:6800:4007:83e::200e: time=42ms
+Reply from 2404:6800:4007:83e::200e: time=36ms
+Reply from 2404:6800:4007:83e::200e: time=20ms
+
+Ping statistics for 2404:6800:4007:83e::200e:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 20ms, Maximum = 42ms, Average = 29ms
+
+C:\Users\Muham>nslookup google.com
+Server:  UnKnown
+Address:  10.140.98.184
+
+Non-authoritative answer:
+Name:    google.com
+Addresses:  2404:6800:4007:83e::200e
+          142.250.183.174
+
+
+C:\Users\Muham>nslookup
+Default Server:  UnKnown
+Address:  10.140.98.184
+
+>
+C:\Users\Muham>arp -a
+
+Interface: 10.140.98.246 --- 0x5
+  Internet Address      Physical Address      Type
+  10.140.98.184         5a-9e-35-39-e7-d2     dynamic
+  10.140.98.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+Interface: 192.168.56.1 --- 0xf
+  Internet Address      Physical Address      Type
+  192.168.56.255        ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.167           01-00-5e-00-00-a7     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  224.0.1.60            01-00-5e-00-01-3c     static
+  224.0.2.3             01-00-5e-00-02-03     static
+  224.77.77.77          01-00-5e-4d-4d-4d     static
+  225.16.8.68           01-00-5e-10-08-44     static
+  230.0.0.1             01-00-5e-00-00-01     static
+  239.192.152.143       01-00-5e-40-98-8f     static
+  239.255.102.18        01-00-5e-7f-66-12     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  239.255.255.253       01-00-5e-7f-ff-fd     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+Interface: 172.30.228.40 --- 0x27
+  Internet Address      Physical Address      Type
+  224.0.0.2                                   static
+  224.0.0.22                                  static
+  224.0.0.167                                 static
+  224.0.0.251                                 static
+  224.0.0.252                                 static
+  224.0.1.60                                  static
+  224.0.2.3                                   static
+  224.77.77.77                                static
+  225.16.8.68                                 static
+  230.0.0.1                                   static
+  239.192.152.143                             static
+  239.255.102.18                              static
+  239.255.255.250                             static
+  239.255.255.253                             static
+  255.255.255.255                             static
+
+C:\Users\Muham>tracert google.com
+
+Tracing route to google.com [2404:6800:4007:83e::200e]
+over a maximum of 30 hops:
+
+  1    11 ms     3 ms     2 ms  2401:4900:6330:91f3::4c
+  2     *        *        *     Request timed out.
+  3    54 ms    33 ms    36 ms  2401:4900:0:7cb::1
+  4    44 ms    20 ms    39 ms  2401:4900:0:6ff::7
+  5    35 ms    48 ms    32 ms  2401:4900:0:6f7::1
+  6     *        *        *     Request timed out.
+  7    33 ms    48 ms    26 ms  2404:a800:3a00:1::605
+  8    29 ms    29 ms    32 ms  2404:a800::92
+  9    21 ms    22 ms    36 ms  2001:4860:1:1::d2e
+ 10    30 ms    30 ms    30 ms  2001:4860:0:1::a06f
+ 11    29 ms    57 ms    22 ms  2001:4860:0:1::5597
+ 12    63 ms    94 ms    37 ms  lcmaaa-bc-in-x0e.1e100.net [2404:6800:4007:83e::200e]
+
+Trace complete.
+
+C:\Users\Muham>
